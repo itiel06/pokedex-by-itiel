@@ -1,0 +1,16 @@
+#contendor3 {
+    
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#contenedor4 {
+
+    padding: 10px;
+    background-color: rgb(215, 174, 253);
+    border: 2px solid black ;
+    width: 10rem;
+
+}
