@@ -1,16 +1,127 @@
+body {
+background-color: #06096b;
+opacity: 1;
+background-image:  radial-gradient(#e9e9ef 2px, transparent 2px), radial-gradient(#e9e9ef 2px, #06096b 2px);
+background-size: 80px 80px;
+background-position: 0 0,40px 40px;
+}
+
 #contendor3 {
     
     margin-top: 3em;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
+    align-items: center;
+    justify-content: center;
 }
 
 #contenedor4 {
 
+    
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(145deg, #2f201e, #dd0f0f);
     padding: 10px;
-    background-color: rgb(215, 174, 253);
-    border: 2px solid black ;
-    width: 10rem;
+    background-color: rgb(246, 251, 255);
+    border: 4px solid black ;
+    width: 9em;
+    
+}
+
+  #idx{
+
+    padding: -10px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    border-radius: 10px;
+    margin-top: 1px;
+
+  }
+
+  #namex{
+
+    margin-top: -2rem;
+    
+    text-align: center;
+    color: linear-gradient(150deg, white, blue);
+    
+  }
+
+
+#tipo1{
+
+  text-align: center;  
+  padding: 4px 8px;
+  margin: 10px;
+  border-radius: 8px ;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  box-shadow: 0 2px 5px rgba(158, 21, 21, 5);
+
 
 }
+
+#tipo2{
+
+    text-align: center;
+   padding: 4px 8px;
+  margin: 10px;
+  border-radius: 8px ;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  box-shadow: 0 2px 5px rgba( 0, 205, 204, 5);
+
+
+}
+
+#imagenx{
+
+  padding: 20px;
+    padding-right: 30px;
+   background: linear-gradient(145deg, #1e1e2f, #2a2a3d);
+    color: white;
+
+
+}
+
+.loader {
+    margin-top: 5em;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(
+      165deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgb(220, 220, 220) 40%,
+      rgb(170, 170, 170) 98%,
+      rgb(10, 10, 10) 100%
+    );
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .loader:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border-bottom: 0 solid #ffffff05;
+    box-shadow: 0 -10px 20px 20px #ffffff40 inset,
+      0 -5px 15px 10px #ffffff inset, 0 -2px 5px #ffffff80 inset,
+      0 -3px 2px #ffffffbb inset, 0 2px 0px #ffffff, 0 2px 3px #ffffff,
+      0 5px 5px #ffffff90, 0 10px 15px #ffffff60, 0 10px 20px 20px #ffffff40;
+    filter: blur(3px);
+    animation: 2s rotate linear infinite;
+  }
+
+  @keyframes rotate {
+    100% { transform: rotate(360deg) }
+  }
+      
