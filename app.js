@@ -12,7 +12,7 @@ const data = await response.json()
 
 const {id, name,sprites:{front_default}, types } = data
 
-const tipo1 = types[0]?.type.name || ''
+const tipo1 = types[0].type.name || ''
 const tipo2 = types[1]?.type.name || ''
 
 console.log(id)
